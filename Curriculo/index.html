@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinicius Cerqueira Silva | Portfólio Futurístico</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Partículas flutuantes -->
+    <div class="floating-particles" id="particles"></div>
+
+    <header>
+        <nav>
+            <div class="logo">Vinicius Cerqueira Silva</div>
+            <div class="language-switcher">
+                <button onclick="setLanguage('pt')" class="active">PT</button>
+                <button onclick="setLanguage('en')">EN</button>
+                <button onclick="setLanguage('es')">ES</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="profile-container">
+                <div class="profile-photo">
+                    <img src="perfil.jpg" alt="Vinicius Cerqueira Silva" />
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1 data-key="heroTitle">Profissional em transição para Dados, BI e Automação</h1>
+                <p data-key="heroSubtitle">Com experiência em análise de KPIs, automação de relatórios e liderança operacional. Hábil em dashboards e processos que aumentam eficiência e suportam decisões estratégicas. Proativo e focado em ambientes data-driven.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/viniciusplanejamento-bi-excel" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/v-cerqueira" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2 data-key="experienceTitle">Experiência Profissional</h2>
+            <div class="job">
+                <h3 data-key="job1Title">Atendente de Negócios</h3>
+                <p><strong>Paraná Banco</strong> | <span data-key="job1Date">Abr/2023-Atual</span> | Araucária/PR</p>
+                <ul>
+                    <li data-key="job1Desc1">Análise de elegibilidade e negociação de crédito consignado com uso de KPIs.</li>
+                    <li data-key="job1Desc2">Automação de relatórios em Power BI, que transformou um processo manual de 10 minutos em Excel em uma análise visual e automática.</li>
+                    <li data-key="job1Desc3">A frequência de atualização de dados foi elevada de 3 vezes ao dia para atualizações de hora em hora, garantindo acesso a informações sempre atuais.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3 data-key="job2Title">Supervisor de Operações Pleno</h3>
+                <p><strong>DBM Contact Center</strong> | <span data-key="job2Date">Set/2021-Out/2022</span> | Curitiba/PR</p>
+                <ul>
+                    <li data-key="job2Desc1">Liderança de equipe e monitoramento via dashboards Excel/Power BI.</li>
+                    <li data-key="job2Desc2">Automação para clientes como Eudora, Furukawa e Paraná Banco, aumentando produtividade.</li>
+                </ul>
+            </div>
+             <div class="job">
+                <h3 data-key="job3Title">Supervisor de Operações</h3>
+                <p><strong>SoftMarketing</strong> | <span data-key="job3Date">Set/2017-Mai/2020</span> | Araucária/PR</p>
+                <ul>
+                    <li data-key="job3Desc1">Gestão e melhoria de KPIs operacionais (NS, TMA, IQA/SLA, IDSP).</li>
+                    <li data-key="job3Desc2">Treinamento e liderança de equipes multidisciplinares.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 data-key="skillsTitle">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>Power BI</h4>
+                    <p data-key="skill1Desc">Criação e automação de dashboards (intermediário/avançado).</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Excel Avançado</h4>
+                    <p data-key="skill2Desc">Dashboards, funções complexas, gráficos dinâmicos.</p>
+                </div>
+                <div class="skill-card">
+                    <h4>SQL</h4>
+                    <p data-key="skill3Desc">Consultas básicas em PostgreSQL e MySQL.</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Power Query</h4>
+                    <p data-key="skill4Desc">Linguagem M.</p>
+                </div>
+                 <div class="skill-card">
+                    <h4 data-key="skill5Title">Linguagens em Estudo</h4>
+                    <p>Python, JavaScript, TypeScript</p>
+                </div>
+                 <div class="skill-card">
+                    <h4 data-key="skill6Title">Banco de Dados</h4>
+                    <p>Microsoft Access</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 data-key="educationTitle">Formação e Certificações</h2>
+            <div class="education-item">
+                <h3 data-key="edu1Title">Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
+                <p>Unicesumar | <span data-key="edu1Date">Previsão 2026</span></p>
+            </div>
+            <div class="education-item">
+                <h3 data-key="cert1Title">SQL para Análise de Dados</h3>
+                <p>Data Science Academy (2024)</p>
+            </div>
+            <div class="education-item">
+                <h3 data-key="cert2Title">Excel Avançado e Power BI</h3>
+                <p>Udemy (2023)</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 data-key="contactTitle">Contato</h2>
+            <p data-key="contactLocation">Araucária/PR | Disponível para mudança | Híbrido/Remoto</p>
+            <p>Email: <a href="mailto:vcerqueira@outlook.com.br">vcerqueira@outlook.com.br</a></p>
+            <p data-key="contactPhone">Telefone: (41) 99581-1045</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Vinicius Cerqueira Silva | Desenvolvido com HTML, CSS e JavaScript</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
