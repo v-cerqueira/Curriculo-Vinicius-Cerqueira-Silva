@@ -62,6 +62,35 @@ Trabalho há anos com análise de dados e automação de processos. Agora estou 
 
 ---
 
+## 💻 **Projetos em Desenvolvimento**
+
+### **Beatfy - Angular** | [Ver no GitHub](https://github.com/fsluz/Beatfy)
+Projeto desenvolvido em **Angular** com TypeScript, CSS e HTML. Aplicação web com foco em funcionalidades modernas e interface responsiva.
+
+**Tecnologias:** Angular, TypeScript, CSS, HTML
+
+### **Sistema Financeiro - Java** | [Ver no GitHub](https://github.com/fsluz/financeiro-java)
+Sistema financeiro desenvolvido em **Java** com PostgreSQL, utilizando JFreeChart para gráficos e interface desktop robusta.
+
+**Tecnologias:** Java, PostgreSQL, JFreeChart, Swing
+
+### **TypeScript FTE** | [Ver no GitHub](https://github.com/fsluz/typescript-fte)
+Projeto em **TypeScript** focado em desenvolvimento frontend com tipagem estática e boas práticas de programação.
+
+**Tecnologias:** TypeScript, Frontend Development
+
+### **Trabalho 2 - POO** | [Ver no GitHub](https://github.com/v-cerqueira/Trabalho2-POO)
+Segundo trabalho de **Programação Orientada a Objetos**, demonstrando conceitos avançados de POO e estruturação de código.
+
+**Tecnologias:** Java, POO, Conceitos Avançados
+
+### **Trabalho 1 - POO** | [Ver no GitHub](https://github.com/v-cerqueira/Trabalho1-POO)
+Primeiro trabalho de **Programação Orientada a Objetos**, introduzindo conceitos fundamentais de POO e desenvolvimento Java.
+
+**Tecnologias:** Java, POO, Conceitos Fundamentais
+
+---
+
 ## 💼 **Minha experiência profissional**
 
 ### **Atendente de Negócios** | Paraná Banco | Abr/2023-Atual
