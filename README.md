@@ -2,7 +2,7 @@
 https://v-cerqueira.github.io/Curriculo-Vinicius-Cerqueira-Silva/
 
 <div align="center">
-  <img src="perfil.jpg" alt="Vinicius Cerqueira Silva" width="200" style="border-radius: 50%; border: 3px solid #00BCD4; box-shadow: 0 0 30px rgba(0, 188, 212, 0.5);">
+  <img src="assets/images/perfil.jpg" alt="Vinicius Cerqueira Silva" width="200" style="border-radius: 50%; border: 3px solid #00BCD4; box-shadow: 0 0 30px rgba(0, 188, 212, 0.5);">
   
   ### **Vinicius Cerqueira Silva** | **Desenvolvedor com Viés em Dados**
   
@@ -126,8 +126,8 @@ Primeiro trabalho de **Programação Orientada a Objetos**, introduzindo conceit
 ### **Como rodar:**
 1. **Baixe os arquivos:**
    ```bash
-   git clone https://github.com/v-cerqueira/portfolio-futuristico.git
-   cd portfolio-futuristico
+   git clone https://github.com/v-cerqueira/Curriculo-Vinicius-Cerqueira-Silva.git
+   cd Curriculo-Vinicius-Cerqueira-Silva
    ```
 
 2. **Abra no navegador:**
@@ -149,12 +149,19 @@ Primeiro trabalho de **Programação Orientada a Objetos**, introduzindo conceit
 ## 📁 **Estrutura dos arquivos**
 
 ```
-portfolio-futuristico/
-├── index.html          # Estrutura e conteúdo principal
-├── style.css           # Estilos e animações
-├── script.js           # Funcionalidades JavaScript
-├── perfil.jpg          # Minha foto
-└── README.md           # Este arquivo
+Curriculo/
+├── index.html              # Página principal do portfólio
+├── README.md               # Documentação do projeto
+└── assets/                 # Recursos do projeto
+    ├── css/
+    │   └── style.css      # Estilos e design cyberpunk
+    ├── js/
+    │   └── script.js      # Funcionalidades e animações
+    └── images/            # Imagens e fotos
+        ├── perfil.jpg     # Foto de perfil
+        ├── Beatfy.png     # Screenshot do projeto Beatfy
+        ├── Sistema Financeiro - Java.png  # Screenshot do sistema financeiro
+        └── trab1 POO.png  # Screenshot do trabalho de POO
 ```
 
 ---
@@ -207,7 +214,7 @@ O site funciona em **3 idiomas**:
 ## 🔧 **Como personalizar**
 
 ### **Mudar cores:**
-Edite as variáveis CSS no arquivo `style.css`:
+Edite as variáveis CSS no arquivo `assets/css/style.css`:
 
 ```css
 :root {
@@ -219,7 +226,7 @@ Edite as variáveis CSS no arquivo `style.css`:
 ```
 
 ### **Adicionar novos idiomas:**
-Edite o objeto `translations` no arquivo `script.js`:
+Edite o objeto `translations` no arquivo `assets/js/script.js`:
 
 ```javascript
 const translations = {
@@ -285,4 +292,3 @@ Este projeto está sob licença **MIT**. Pode usar, modificar e distribuir livre
   *"Transformando dados em soluções, criando o futuro com código"*
   
 </div>
-
