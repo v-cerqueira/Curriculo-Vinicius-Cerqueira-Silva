@@ -1,4 +1,5 @@
 # 🚀 Meu Portfólio
+https://v-cerqueira.github.io/Curriculo-Vinicius-Cerqueira-Silva/
 
 <div align="center">
   <img src="perfil.jpg" alt="Vinicius Cerqueira Silva" width="200" style="border-radius: 50%; border: 3px solid #00BCD4; box-shadow: 0 0 30px rgba(0, 188, 212, 0.5);">
@@ -284,3 +285,4 @@ Este projeto está sob licença **MIT**. Pode usar, modificar e distribuir livre
   *"Transformando dados em soluções, criando o futuro com código"*
   
 </div>
+
